@@ -16,13 +16,13 @@ var ev = { voting: 910, daging: 811, ikan: 912, ritual: 183, korban: 584, perang
 const app = express();
 
 const config = {
-  channelAccessToken: 'TIDSib0/GDMntCWv+i094Lze4hwnqS+F/sa7D6SohtagxzapVZLrx2m5sq8q8+8LgnOJJdi9GblCvIEwv1AYaJA/n17SNC/peFIy4k1daXmSu6QnBSyXPg28ixYzk05PJS51gExJu6EC1WpecQDCnQdB04t89/1O/w1cDnyilFU=',
-  channelSecret: '66c1a29152d601d7a5e96e1f5a08b125'
+  channelAccessToken: 'Zqfz2wBlb4Gih2GrV9y4EyeayZXo/pGpI+T1PvfpEEv0umQ9MW/i84oJFDQYXRrq4iZCJ1qFrF5MkJ/7bJy0jfX2RcNZUtSrc7OAsoL4YWKqeoHDVcAEIxCajyFzWn7ZfJNS7k9ynEWqWQLoITaKpgdB04t89/1O/w1cDnyilFU=',
+  channelSecret: '1d9e9505e7eafb83eb4640446d04e4b4'
 };
 
 const client = new Client({
-  channelAccessToken: 'TlDSib0/GDMntCWv+i094Lze4hwnqS+F/sa7D6SohtagxzapVZLrx2m5sq8q8+8LgnOJJdi9GblCvIEwv1AYaJA/n17SNC/peFIy4k1daXmSu6QnBSyXPg28ixYzk05PJS51gExJu6EC1WpecQDCnQdB04t89/1O/w1cDnyilFU=',
-  channelSecret: '66c1a29152d601d7a5e96e1f5a08b125'
+  channelAccessToken: 'Zqfz2wBlb4Gih2GrV9y4EyeayZXo/pGpI+T1PvfpEEv0umQ9MW/i84oJFDQYXRrq4iZCJ1qFrF5MkJ/7bJy0jfX2RcNZUtSrc7OAsoL4YWKqeoHDVcAEIxCajyFzWn7ZfJNS7k9ynEWqWQLoITaKpgdB04t89/1O/w1cDnyilFU=',
+  channelSecret: '1d9e9505e7eafb83eb4640446d04e4b4'
 });
 
 app.use(middleware(config)); //before the bodyparser.json for line authorization
